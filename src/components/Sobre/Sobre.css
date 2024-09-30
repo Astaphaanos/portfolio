@@ -1,0 +1,40 @@
+
+.Sobre {
+    height: 100vh;
+}
+
+.Sobre .card {
+    background-color: #080D1F;
+    width: 1000px;
+    padding: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: translate(30%, 20%);
+}
+
+.Sobre .card-sobre img {
+    width: 300px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.Sobre .card-info {
+    color: #fff;
+    margin-left: 50px;
+}
+
+.Sobre .card-info h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    color: #6d68f0;
+}
+
+.Sobre .card-info p {
+    font-size: 17px;
+    text-align: justify;
+    margin-right: 30px;
+    margin-top: 20px;
+}

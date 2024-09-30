@@ -1,0 +1,40 @@
+
+.Home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.Home img {
+    width: 60px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.Home ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.Home li {
+    list-style-type: none;
+    margin-left: 60px;
+}
+
+.Home a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Home a:hover {
+    color: #04ADBF;
+    transition: all 0.3s ease;
+}
