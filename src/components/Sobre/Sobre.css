@@ -3,7 +3,7 @@
     height: 100vh;
 }
 
-.Sobre .card {
+.Sobre .card-about{
     background-color: #080D1F;
     width: 1000px;
     padding: 100px;
@@ -14,7 +14,7 @@
     transform: translate(30%, 20%);
 }
 
-.Sobre .card-sobre img {
+.Sobre .card-image img {
     width: 300px;
     margin-left: 30px;
     margin-right: 20px;
@@ -23,6 +23,7 @@
 .Sobre .card-info {
     color: #fff;
     margin-left: 50px;
+    flex-direction: column;
 }
 
 .Sobre .card-info h2 {

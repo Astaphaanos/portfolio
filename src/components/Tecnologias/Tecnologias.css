@@ -1,13 +1,14 @@
 
 .tecnology {
     color: #ffff;
+    margin: 40px 40px;
 }
 
 .tecnology h2 {
     font-size: 40px;
     font-weight: 700;
     color: #6d68f0;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .tecnology .tecnology-grid{
@@ -19,6 +20,7 @@
 .tecnology .tecnology-grid .element {
     margin-left: 40px;
     margin-bottom: 60px;
+    cursor: pointer;
 }
 
 .tecnology .tecnology-grid .element:hover {

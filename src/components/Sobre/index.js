@@ -3,8 +3,8 @@ import './Sobre.css';
 const Sobre = () => {
     return (
         <section className='Sobre'>
-            <div className="card">
-                <div className="card-sobre">
+            <div className="card-about">
+                <div className="card-image">
                     <img src="/images/about-me.png" alt="Sobre mim" />
                 </div>
                 <div className="card-info">

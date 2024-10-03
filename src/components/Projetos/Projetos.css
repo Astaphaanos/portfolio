@@ -1,0 +1,87 @@
+
+.projetos h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #6d68f0;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+.card {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.card-info .projeto-image img {
+    width: 500px;
+}
+
+.card-info .projeto-info {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+
+    h3 {
+        text-align: left;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    p {
+        width: 500px;
+        text-align: justify;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    span {
+        text-align: right;
+        font-style: italic;
+        font-weight: 600;
+    }
+
+   .btn {
+    display: flex;
+    flex-direction: row-reverse;
+
+        button {
+            background-color: #00D9FF;
+            border: none;
+            padding: 10px;
+            margin: 20px 10px;
+            width: 120px;
+            border-radius: 3px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                margin-right: 10px;
+                width: 25px;
+            }
+        }
+
+        button a {
+            text-decoration: none;
+            color: #000;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+            transition: transform 0.5s ease;
+        }
+   }
+}
+
