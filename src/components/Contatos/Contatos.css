@@ -1,0 +1,43 @@
+
+.contatos-container {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.contatos-info {
+    color: #fff;
+
+    h2 {
+        font-size: 40px;
+        font-weight: 700;
+        color: #6d68f0;
+        margin-bottom: 40px;
+    }
+
+    p {
+        color: #ffffffc9;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+.email-copy-button {
+    position: relative;
+    padding: 14px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .email-copy-button.hover {
+    background-color: #007bff; /* Azul no hover */
+    transform: scale(1.05); /* Aumenta um pouco no hover */
+  }

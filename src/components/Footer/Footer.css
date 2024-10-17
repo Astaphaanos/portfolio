@@ -1,0 +1,19 @@
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-top: solid 1px #fff;
+}
+
+footer .direitos-footer {
+    color:#fff;
+    font-weight: 500;
+    padding: 10px;
+}
+
+footer .social-links a {
+    color: #fff;
+    margin: 0 10px;
+}

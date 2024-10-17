@@ -1,20 +1,25 @@
 
 import './App.css';
+import Header from './components/Header';
 import Home from './components/Home';
-import Introducao from './components/Introducao';
 import Sobre from './components/Sobre';
 import Tecnologias from './components/Tecnologias';
 import Projetos from './components/Projetos';
-
+import Contatos from './components/Contatos';
+import Footer from './components/Footer';
+import SideMenu from './components/SideMenu';
 
 function App() {
   return (
-    <div className='App' style={{backgroundColor: '#202023'}}>
+    <div className='App' style={{backgroundColor: '#0d1321'}}>
+        <Header/>
         <Home/>
-        <Introducao/>
         <Sobre/>
         <Tecnologias/>
         <Projetos/>
+        <Contatos/>
+        <Footer/>
+        <SideMenu/>
     </div>
   )
 }

@@ -18,7 +18,7 @@ const Projetos = () => {
               baixem diretamente as ferramentas.
             </p>
             <span>HTML, SCSS, JavaScript</span>
-            <div className="btn">
+            <div className="btn-projetos">
               <button style={{ backgroundColor: "#00D9FF" }}>
                 <img src="images/new.png" alt="New ico"/>
                 <a href="https://devload.vercel.app/" target="-blank">
@@ -47,7 +47,7 @@ const Projetos = () => {
               visualizem e gerenciem suas tarefas de forma prática e intuitiva.
             </p>
             <span>HTML, Vue, JavaScript</span>
-            <div className="btn">
+            <div className="btn-projetos">
               <button style={{ backgroundColor: "#00D9FF" }}>
               <img src="images/new.png" alt="New ico"/>
                 <a
@@ -84,7 +84,7 @@ const Projetos = () => {
             as delícias oferecidas, criando uma experiência envolvente.
           </p>
           <span>HTML, Bootstrap, CSS</span>
-          <div className="btn">
+          <div className="btn-projetos">
             <button style={{ backgroundColor: "#00D9FF" }}>
             <img src="images/new.png" alt="New ico"/>
               <a href="https://patisserie-du-cafe.vercel.app/" target="-blank">
@@ -116,7 +116,7 @@ const Projetos = () => {
             gerenciar suas compras de forma fácil e eficiente.
           </p>
           <span>HTML, CSS, JavaScript</span>
-          <div className="btn">
+          <div className="btn-projetos">
             <button style={{ backgroundColor: "#00D9FF" }}>
             <img src="images/new.png" alt="New ico"/>
               <a
@@ -152,7 +152,7 @@ const Projetos = () => {
             experiência em diferentes dispositivos.
           </p>
           <span>HTML, CSS</span>
-          <div className="btn">
+          <div className="btn-projetos">
             <button style={{ backgroundColor: "#00D9FF" }}>
             <img src="images/new.png" alt="New ico"/>
               <a

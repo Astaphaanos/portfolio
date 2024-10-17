@@ -1,0 +1,26 @@
+
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    
+
+    li {
+        width: 50px;
+        display: flex;
+        align-items: center;  
+        padding: 8px;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 600;
+            margin-right: 14px;
+        }
+    }
+}
