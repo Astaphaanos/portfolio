@@ -2,7 +2,7 @@ import "./Projetos.css";
 
 const Projetos = () => {
   return (
-    <section className="projetos">
+    <section className="projetos" id="projetos">
       <h2>Projetos</h2>
 
       <div className="card">
@@ -19,16 +19,14 @@ const Projetos = () => {
             </p>
             <span>HTML, SCSS, JavaScript</span>
             <div className="btn-projetos">
-              <button style={{ backgroundColor: "#00D9FF" }}>
-                <img src="images/new.png" alt="New ico"/>
+              <button>
                 <a href="https://devload.vercel.app/" target="-blank">
-                  Site
+                  <img src="images/new.png" alt="New ico"/>
                 </a>
               </button>
-              <button style={{ backgroundColor: "#fff" }}>
-              <img src="images/github-ico.png" alt="Github ico"/>
+              <button>
                 <a href="https://github.com/Astaphaanos/Devload" target="-blank">
-                  GitHub
+                  <img src="images/github-ico.png" alt="Github ico"/>
                 </a>
               </button>
             </div>
@@ -48,22 +46,21 @@ const Projetos = () => {
             </p>
             <span>HTML, Vue, JavaScript</span>
             <div className="btn-projetos">
-              <button style={{ backgroundColor: "#00D9FF" }}>
-              <img src="images/new.png" alt="New ico"/>
+              <button>
                 <a
                   href="https://todo-vue-indol-one.vercel.app/"
                   target="-blank"
                 >
-                  Site
+                  <img src="images/new.png" alt="New ico"/>
                 </a>
               </button>
-              <button style={{ backgroundColor: "#fff" }}>
-              <img src="images/github-ico.png" alt="Github ico"/>
+              <button>
                 <a
                   href="https://github.com/Astaphaanos/todo-vue"
                   target="-blank"
                 >
-                  GitHub
+                  <img src="images/github-ico.png" alt="Github ico"/>
+                  
                 </a>
               </button>
             </div>
@@ -85,19 +82,17 @@ const Projetos = () => {
           </p>
           <span>HTML, Bootstrap, CSS</span>
           <div className="btn-projetos">
-            <button style={{ backgroundColor: "#00D9FF" }}>
-            <img src="images/new.png" alt="New ico"/>
+            <button>
               <a href="https://patisserie-du-cafe.vercel.app/" target="-blank">
-                Site
+                <img src="images/new.png" alt="New ico"/>
               </a>
             </button>
-            <button style={{ backgroundColor: "#fff" }}>
-            <img src="images/github-ico.png" alt="Github ico"/>
+            <button>
               <a
                 href="https://github.com/Astaphaanos/Patisserie-du-cafe"
                 target="-blank"
               >
-                GitHub
+                <img src="images/github-ico.png" alt="Github ico"/>
               </a>
             </button>
           </div>
@@ -117,22 +112,20 @@ const Projetos = () => {
           </p>
           <span>HTML, CSS, JavaScript</span>
           <div className="btn-projetos">
-            <button style={{ backgroundColor: "#00D9FF" }}>
-            <img src="images/new.png" alt="New ico"/>
+            <button>
               <a
                 href="https://carrinho-de-compras-peach.vercel.app/"
                 target="-blank"
               >
-                Site
+                 <img src="images/new.png" alt="New ico"/>
               </a>
             </button>
-            <button style={{ backgroundColor: "#fff" }}>
-            <img src="images/github-ico.png" alt="Github ico"/>
+            <button>
               <a
                 href="https://github.com/Astaphaanos/Carrinho-de-Compras"
                 target="-blank"
               >
-                GitHub
+                <img src="images/github-ico.png" alt="Github ico"/>
               </a>
             </button>
           </div>
@@ -153,22 +146,20 @@ const Projetos = () => {
           </p>
           <span>HTML, CSS</span>
           <div className="btn-projetos">
-            <button style={{ backgroundColor: "#00D9FF" }}>
-            <img src="images/new.png" alt="New ico"/>
+            <button>
               <a
                 href="https://login-page-nine-omega.vercel.app/"
                 target="-blank"
               >
-                Site
+                <img src="images/new.png" alt="New ico"/>
               </a>
             </button>
-            <button style={{ backgroundColor: "#fff" }}>
-            <img src="images/github-ico.png" alt="Github ico"/>
+            <button>
               <a
                 href="https://github.com/Astaphaanos/login-page"
                 target="-blank"
               >
-                GitHub
+                <img src="images/github-ico.png" alt="Github ico"/>
               </a>
             </button>
           </div>

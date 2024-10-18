@@ -13,7 +13,7 @@ const TypingEffect = () => {
 
     return (
         <div className='typing-container'>
-            <h2 style={{color: 'blue'}}>
+            <h2 style={{color: '#237BF7'}}>
                 {text}
                 <span style={{color: 'white'}}>
                     <Cursor cursorStyle='|' />

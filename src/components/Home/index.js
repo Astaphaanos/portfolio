@@ -4,7 +4,7 @@ import './Home.css';
 
 const Home = () => {
     return (
-        <section className='home'> 
+        <section className='home' id='home'> 
 
             <div className="home-info">
                 <h1>Clara Amorim</h1>

@@ -29,11 +29,11 @@ const Contatos = () => {
   };
 
   return (
-    <section>
+    <section id="contatos">
       <div className="contatos-container">
         <div className="contatos-info">
           <h2>Contatos</h2>
-          <p>Entre em contato!</p>
+          <p>Estou sempre aberta a novos projetos e desafios, especialmente nas áreas de desenvolvimento front-end e tecnologias inovadoras. Não hesite em enviar um e-mail será um prazer responder e discutir como podemos trabalhar juntos!</p>
         </div>
 
         <div className="bnt-email">

@@ -2,16 +2,17 @@ import './Sobre.css';
 
 const Sobre = () => {
     return (
-        <section className='Sobre'>
-            <div className="card-about">
-                <div className="card-image">
-                    <img src="/images/about-me.png" alt="Sobre mim" />
-                </div>
-                <div className="card-info">
+        <section className="sobre" id='sobre'>
+            <div className="sobre-container">
+                <div className="sobre-info">
                     <h2>Sobre mim</h2>
                     <p>Sou desenvolvedora front-end apaixonada por tecnologia com conhecimento em HTML, CSS e JS e frameworks como React. Minha abordagem combina estética e funcionalidade, permitindo que eu desenvolva interfaces que não apenas sejam visualmente atraentes, mas também ofereçam uma navegação fluida e eficiente.  </p>
+                    <a href="#Contatos">Contate-me</a>
                 </div>
-            </div>
+                <div className="sobre-image"> 
+                    <img src="Images/connecting.png" alt="Engrenagem"/>
+                </div>
+            </div>       
         </section>
     );
 }
