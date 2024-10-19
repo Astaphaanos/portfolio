@@ -24,3 +24,9 @@
         }
     }
 }
+
+@media (min-width: 320px ) and (max-width: 425px){
+    .side-menu {
+        display: none;
+    }
+}

@@ -22,7 +22,7 @@
         font-size: 17px;
         text-align: justify;
         margin-bottom: 34px;
-        width: 500px;
+        width: 700px;
     }
 }
 
@@ -42,3 +42,43 @@
     background-color: #007bff; /* Azul no hover */
     transform: scale(1.05); /* Aumenta um pouco no hover */
   }
+
+@media (min-width: 320px) and (max-width: 425px){
+    .contatos-info h2 {
+        font-size: 30px;
+        margin-right: 40px;
+    }
+
+    .contatos-info p {
+        width: 320px;
+        margin-right: 40px;
+    }
+
+    .email-copy-button {
+        margin-right: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .contatos-info p {
+        width: 540px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .contatos-info p {
+        width: 600px;
+    }
+}
+
+@media (min-width: 1280px)  {
+    .contatos-info p {
+        width: 700px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .contatos-info p {
+        width: 800px;
+    }
+}

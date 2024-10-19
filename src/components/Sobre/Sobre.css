@@ -43,3 +43,96 @@
 .sobre-image img{
     width: 300px;
 }
+
+
+@media (min-width: 320px ) and (max-width: 425px){
+
+    .sobre {
+        margin-right: 50px;
+    }
+
+    .sobre-info h2 {
+        font-size: 30px;
+    }
+
+    .sobre-info p {
+        width: 320px;
+    }
+
+    .sobre-image img{
+        display: none;
+    }
+    
+}
+
+@media (min-width: 768px) {
+
+    .sobre {
+        height: 40vh;
+    }
+
+    .sobre-info h2 {
+        font-size: 40px;
+    }
+
+    .sobre-info p {
+        width: 500px;
+    }
+
+    .sobre-image img{
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .sobre {
+        height: 60vh;
+    }
+
+    .sobre-info h2 {
+        font-size: 40px;
+    }
+
+    .sobre-info p {
+        width: 750px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .sobre {
+        height: 60vh;
+    }
+
+    .sobre-info h2 {
+        font-size: 40px;
+    }
+
+    .sobre-info p {
+        width: 100%;
+        padding: 20px 60px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .sobre {
+        height: 60vh;
+    }
+
+    .sobre-info h2 {
+        font-size: 44px;
+    }
+
+    .sobre-info p {
+        width: 100%;
+        padding: 20px 40px;
+    }
+}
+
+
+@media (min-width: 1920px) {
+
+    .sobre-info {
+        width: 80%;
+    }
+}
