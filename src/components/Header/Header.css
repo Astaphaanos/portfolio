@@ -13,12 +13,11 @@
 .header img {
     width: 54px;
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .header ul {
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 
@@ -30,8 +29,8 @@
 .header a {
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 400;
 }
 
 .header a:hover {

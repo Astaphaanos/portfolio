@@ -1,8 +1,6 @@
 
 .tecnology {
     color: #ffff;
-    margin: 40px 40px;
-    height: 50vh;
 }
 
 .tecnology h2 {
@@ -12,30 +10,27 @@
 }
 
 .tecnology .tecnology-grid{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid: 1fr 1fr;
+    max-width: 50rem;
+    margin: 0 auto;
 }
 
 .tecnology .tecnology-grid .element {
-    margin-left: 40px;
+    margin-left: 20px;
     margin-bottom: 60px;
     cursor: pointer;
 }
 
-.tecnology .tecnology-grid .element:hover {
-    transform: scale(1.1);
-    transition: transform 0.5s ease;
-}
-
 .tecnology .tecnology-grid .element h3 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
 }
 
-@media (min-width: 320px) and (max-width: 425px){
+@media (min-width: 375px) and (max-width: 425px){
     .tecnology {
-        height: 70vh;
+        height: 60vh;
+        margin-top: 40px;
     }
 
     .tecnology h2 {

@@ -6,13 +6,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;   
-    gap: .75rem;    
+    height: 90vh;    
 }
 
 .home .home-info h1 {
     font-size: 6em;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .btn-container {
@@ -20,7 +19,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .btn-home {
@@ -33,34 +32,13 @@
   transition: 1s ease-in-out;
 }
 
-.efeito {
-  width: 180px;
-  height: 60px;
-  position: absolute;
-}
-
-.btn-home svg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  fill: none;
-  stroke: #fff;
-  stroke-dasharray: 150 480;
-  stroke-dashoffset: 150;
-  transition: 1s ease-in-out;
-}
-
 .btn-home:hover {
-  transition: 1s ease-in-out;
+  border: 1px solid #fff;
 }
 
-.btn-home:hover svg {
-  stroke-dashoffset: -480;
-}
-
-.btn-home span a {
+.btn-home a {
   color: white;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
   text-decoration: none;
   text-transform: uppercase;

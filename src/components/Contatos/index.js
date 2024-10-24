@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import AnimatedOnScroll from '../AnimetedOnScroll';
 import "./Contatos.css";
 
 const Contatos = () => {
@@ -30,24 +31,26 @@ const Contatos = () => {
 
   return (
     <section id="contatos">
-      <div className="contatos-container">
-        <div className="contatos-info">
-          <h2>Contatos</h2>
-          <p>Estou sempre aberta a novos projetos e desafios, especialmente nas áreas de desenvolvimento front-end e tecnologias inovadoras. Não hesite em enviar um e-mail será um prazer responder e discutir como podemos trabalhar juntos!</p>
-        </div>
+      <AnimatedOnScroll animation="fade-up">
+        <div className="contatos-container">
+          <div className="contatos-info">
+            <h2>Contatos</h2>
+            <p>Estou sempre aberta a novos projetos e desafios, especialmente nas áreas de desenvolvimento front-end e tecnologias inovadoras. Não hesite em enviar um e-mail será um prazer responder e discutir como podemos trabalhar juntos!</p>
+          </div>
 
-        <div className="bnt-email">
-          <button
-            className="email-copy-button"
-            onClick={handleCopy}
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-            style={{ backgroundColor: buttonColor }}
-          >
-            {buttonText}
-          </button>
+          <div className="bnt-email">
+            <button
+              className="email-copy-button"
+              onClick={handleCopy}
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+              style={{ backgroundColor: buttonColor }}
+            >
+              {buttonText}
+            </button>
+          </div>
         </div>
-      </div>
+      </AnimatedOnScroll>
     </section>
   );
 };
