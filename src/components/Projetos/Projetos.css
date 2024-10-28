@@ -13,10 +13,10 @@
     margin-bottom: 60px;
 }
 
-.projetos .card {
+.card {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 12px;
+    gap: 20px;
 }
 
 .card-info {
@@ -27,14 +27,13 @@
     align-items: center;
 }
 
-
 .projetos .card .card-info .projeto-image img {
-    width: 448px;
+    width: 450px;
     height: auto;
 }
 
 .card .card-info .projeto-info {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .card .card-info .projeto-info h3 { 
@@ -49,7 +48,7 @@
 }
 
 .card .card-info .projeto-info span {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -66,7 +65,7 @@
             background-color: transparent;
             border: none;
             padding: 5px;
-            margin: 20px 0;
+            margin: 15px 0;
             width: 50px;
             border-radius: .5rem;
             cursor: pointer;
