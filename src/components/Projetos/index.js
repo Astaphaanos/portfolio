@@ -11,7 +11,7 @@ const Projetos = () => {
 
       <div className="card-info">
         <div className="projeto-image">
-          <img src="/public/images/sites/devload.png" alt="devload" />
+          <img src="/images/sites/devload.png" alt="devload" />
         </div>
         <div className="projeto-info">
           <h3>Devload</h3>

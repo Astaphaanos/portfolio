@@ -12,7 +12,7 @@ const Sobre = () => {
                         <a href="#Contatos">Contate-me</a>
                     </div>
                     <div className="sobre-image"> 
-                        <img src="Images/connecting.png" alt="Engrenagem"/>
+                        <img src="images/connecting.png" alt="Engrenagem"/>
                     </div>
                 </div>     
             </AnimatedOnScroll>  
