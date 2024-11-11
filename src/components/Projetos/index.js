@@ -11,7 +11,7 @@ const Projetos = () => {
 
       <div className="card-info">
         <div className="projeto-image">
-          <img src="/images/sites/devload.png" alt="devload" />
+          <img src="/Images/sites/devload.png" alt="devload" />
         </div>
         <div className="projeto-info">
           <h3>Devload</h3>
@@ -24,12 +24,12 @@ const Projetos = () => {
           <div className="btn-projetos">
             <button>
               <a href="https://devload.vercel.app/" target="-blank">
-                <img src="/images/new.png" alt="New ico"/>
+                <img src="/Images/new.png" alt="New ico"/>
               </a>
             </button>
             <button>
               <a href="https://github.com/Astaphaanos/Devload" target="-blank">
-                <img src="/images/github-ico.png" alt="Github ico"/>
+                <img src="/Images/github-ico.png" alt="Github ico"/>
               </a>
             </button>
           </div>
@@ -38,7 +38,7 @@ const Projetos = () => {
 
       <div className="card-info">
         <div className="projeto-image">
-          <img src="/images/sites/todovue.png" alt="todo vue" />
+          <img src="/Images/sites/todovue.png" alt="todo vue" />
         </div>
         <div className="projeto-info">
           <h3>To-do</h3>
@@ -51,12 +51,12 @@ const Projetos = () => {
           <div className="btn-projetos">
             <button>
               <a href="https://todo-vue-indol-one.vercel.app/" target="-blank">
-                <img src="/images/new.png" alt="New ico"/>
+                <img src="/Images/new.png" alt="New ico"/>
               </a>
             </button>
             <button>
               <a href="https://github.com/Astaphaanos/todo-vue" target="-blank">
-                <img src="/images/github-ico.png" alt="Github ico"/>
+                <img src="/Images/github-ico.png" alt="Github ico"/>
               </a>
             </button>
           </div>
@@ -65,7 +65,7 @@ const Projetos = () => {
 
       <div className="card-info">
         <div className="projeto-image">
-          <img src="/images/sites/cafe.png" alt="patisserie du cafe" />
+          <img src="/Images/sites/cafe.png" alt="patisserie du cafe" />
         </div>
         <div className="projeto-info">
           <h3>Patisserie du Cafe</h3>
@@ -78,12 +78,12 @@ const Projetos = () => {
           <div className="btn-projetos">
             <button>
               <a href="https://patisserie-du-cafe.vercel.app/" target="-blank">
-                <img src="/images/new.png" alt="New ico"/>
+                <img src="/Images/new.png" alt="New ico"/>
               </a>
             </button>
             <button>
               <a href="https://github.com/Astaphaanos/Patisserie-du-cafe" target="-blank">
-                <img src="/images/github-ico.png" alt="Github ico"/>
+                <img src="/Images/github-ico.png" alt="Github ico"/>
               </a>
             </button>
           </div>
@@ -92,7 +92,7 @@ const Projetos = () => {
 
       <div className="card-info">
         <div className="projeto-image">
-          <img src="/images/sites/loginpage.png" alt="login page nine omega" />
+          <img src="/Images/sites/loginpage.png" alt="login page nine omega" />
         </div>
         <div className="projeto-info">
           <h3>Login Page React</h3>
@@ -106,12 +106,12 @@ const Projetos = () => {
           <div className="btn-projetos">
             <button>
               <a href="https://login-page-nine-omega.vercel.app/" target="-blank">
-                <img src="/images/new.png" alt="New ico"/>
+                <img src="/Images/new.png" alt="New ico"/>
               </a>
             </button>
             <button>
               <a href="https://github.com/Astaphaanos/login-page" target="-blank">
-                <img src="/images/github-ico.png" alt="Github ico"/>
+                <img src="/Images/github-ico.png" alt="Github ico"/>
               </a>
             </button>
           </div>
