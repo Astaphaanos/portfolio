@@ -95,12 +95,12 @@ const Projetos = () => {
           <img src="/images/sites/loginpage.png" alt="login page nine omega" />
         </div>
         <div className="projeto-info">
-          <h3>Login Page Nine Omega</h3>
+          <h3>Login Page React</h3>
           <p>
-            A Login Page Nine Omega é uma página de login minimalista e
-            funcional, projetada para permitir que os usuários façam login de
-            forma simples e segura. O design limpo e responsivo garante uma boa
-            experiência em diferentes dispositivos.
+          Um projeto de página de login desenvolvido em React, com uma interface intuitiva 
+          e moderna para autenticação de usuários. A aplicação permite a navegação entre 
+          as páginas de login e cadastro, com botões específicos para alternar entre as 
+          telas.
           </p>
           <span>HTML, CSS</span>
           <div className="btn-projetos">
