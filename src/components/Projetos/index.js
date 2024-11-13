@@ -105,12 +105,12 @@ const Projetos = () => {
           <span>HTML, CSS</span>
           <div className="btn-projetos">
             <button>
-              <a href="https://login-page-nine-omega.vercel.app/" target="-blank">
+              <a href="https://login-page-react-nine.vercel.app/" target="-blank">
                 <img src="/Images/new.png" alt="New ico"/>
               </a>
             </button>
             <button>
-              <a href="https://github.com/Astaphaanos/login-page" target="-blank">
+              <a href="https://github.com/Astaphaanos/login-page-react" target="-blank">
                 <img src="/Images/github-ico.png" alt="Github ico"/>
               </a>
             </button>
