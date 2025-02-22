@@ -2,8 +2,8 @@
 .projetos {
     margin-left: auto;
     margin-right: auto;
-    max-width: 75rem;
     margin-top: 60px;
+    height: auto;
 }
 
 .projetos h2 {
@@ -13,10 +13,18 @@
     margin-bottom: 60px;
 }
 
-.card {
+.projetos-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:  repeat(2, 1fr);
     gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .card-info {
@@ -25,29 +33,31 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 600px;
+    height: auto;
 }
 
-.projetos .card .card-info .projeto-image img {
+.projeto-image img {
     width: 450px;
     height: 227px;
 }
 
-.card .card-info .projeto-info {
+.projeto-info {
     margin-bottom: 50px;
 }
 
-.card .card-info .projeto-info h3 { 
+.projeto-info h3 { 
     font-size: 28px;
     padding-bottom: 20px;
 }
 
-.card .card-info .projeto-info p {
+.projeto-info p {
     font-size: 18px;
     text-align: justify;
     width: 500px;
 }
 
-.card .card-info .projeto-info span {
+.projeto-info span {
     margin-top: 10px;
     display: flex;
     justify-content: flex-end;
@@ -92,74 +102,29 @@
         }
    }
 
+   .mostrar-mais-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  /* Botão "Mostrar mais" */
+  .mostrar-mais-btn {
+    position: relative;
+    z-index: 2;
+    padding: 10px 20px;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
 
-@media (min-width: 375px) and (max-width: 810px){
-
-    .projetos h2 {
-        font-size: 30px;
-    }
-
-    .projetos .card {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 0;
-    }
-
-    .projetos .card .card-info .projeto-image img {
-        width: 300px;
-        height: auto;
-    }
-    
-    .card .card-info .projeto-info h3 { 
-        font-size: 22px;
-        padding-bottom: 20px;
-    }
-    
-    .card .card-info .projeto-info p {
-        font-size: 16px;
-        text-align: justify;
-        width: 300px;
-        margin-left: 34px;
-    }
-
-    .card .card-info .projeto-info span {
-        font-size: 14px;
-    }
-}
-
-@media (min-width: 820px) and (max-width: 1020px){
-    .projetos h2 {
-        font-size: 30px;
-    }
-
-    .projetos .card {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 0;
-    }
-
-    .projetos .card .card-info .projeto-image img {
-        width: 500px;
-        height: auto;
-    }
-    
-    .card .card-info .projeto-info h3 { 
-        font-size: 22px;
-        padding-bottom: 20px;
-    }
-    
-    .card .card-info .projeto-info p {
-        font-size: 18px;
-        text-align: justify;
-        width: 500px;
-        margin-left: 34px;
-    }
-
-    .card .card-info .projeto-info span {
-        font-size: 16px;
+@media (max-width: 1240px) {
+    .projetos-container {
+        display: block;
     }
 }
