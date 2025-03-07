@@ -2,7 +2,7 @@
 Um site pessoal desenvolvido com **React** para exibir meus projetos, habilidades e informações de contato. O objetivo deste portfólio é apresentar meu trabalho de forma clara e atraente, proporcionando uma experiência agradável aos visitantes.
 
 ## 🚀 Visite o Projeto
-Confira o deploy no Vercel: [Meu Portfólio](https://vercel.com/anna-clara-amorims-projects/portfolio)
+Confira o deploy no Vercel: [Meu Portfólio](https://portfolio-alpha-six-10.vercel.app/)
 
 ## 🛠️ Tecnologias Utilizadas
 - **React**: Biblioteca JavaScript para construção de interfaces.
