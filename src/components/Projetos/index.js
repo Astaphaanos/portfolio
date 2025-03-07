@@ -4,7 +4,7 @@ import "./Projetos.css";
 
 const projetos = [
   {
-    image: '/images/sites/devload.png',
+    image: '/Images/sites/devload.png',
     nome: 'Devload',
     description: 'O Devload é um site que reúne uma seleção de aplicativos populares usados por desenvolvedores, permitindo que os usuários explorem e baixem diretamente as ferramentas.',
     tecnologias: 'HTML, SCSS, JavaScript', 
@@ -13,7 +13,7 @@ const projetos = [
   },
 
   {
-    image: '/images/sites/todovue.png',
+    image: '/Images/sites/todovue.png',
     nome: 'To-Do',
     description: 'O Todo Vue é um aplicativo simples de lista de tarefas desenvolvido com Vue.js, permitindo que os usuários adicionem, visualizem e gerenciem suas tarefas de forma prática e intuitiva.',
     tecnologias: 'Vue.js', 
@@ -22,7 +22,7 @@ const projetos = [
   },
 
   {
-    image: '/images/sites/cafe.png',
+    image: '/Images/sites/cafe.png',
     nome: 'Patisserie Du Cafe',
     description: 'O Patisserie du Café é um site de confeitaria que apresenta produtos de uma patisserie, destacando itens como doces e bebidas. O design elegante permite aos usuários explorar o menu criando uma experiência envolvente.',
     tecnologias: 'HTML, BootStrap', 
@@ -31,7 +31,7 @@ const projetos = [
   },
 
   {
-    image: '/images/sites/loginpage.png',
+    image: '/Images/sites/loginpage.png',
     nome: 'Login Page',
     description: 'Um projeto de página de login desenvolvido em React, com uma interface intuitiva e moderna para autenticação de usuários. A aplicação permite a navegação entre as páginas de login e cadastro, com botões específicos para alternar entre as telas.',
     tecnologias: 'React e CSS', 
@@ -40,7 +40,7 @@ const projetos = [
   },
 
   {
-    image: '/images/sites/revriders.png',
+    image: '/Images/sites/revriders.png',
     nome: 'Rev Riders Moto',
     description: 'O Rev Riders Moto é um site moderno e responsivo desenvolvido para entusiastas de motocicletas, apresentando uma coleção de motos com designs e especificações técnicas. Desenvolvido em React e estilizado com CSS puro, o projeto utiliza componentes reutilizáveis e layouts flexíveis para garantir uma experiência de usuário fluida e atraente em diferentes dispositivos.',
     tecnologias: 'React e CSS', 
@@ -49,7 +49,7 @@ const projetos = [
   },
 
   {
-    image: '/images/sites/abc-divertido.png',
+    image: '/Images/sites/abc-divertido.png',
     nome: 'ABC Divertido',
     description: 'O ABC Divertido é um site educativo e interativo desenvolvido para crianças, com o objetivo de transformar o tempo gasto em dispositivos móveis em uma experiência de aprendizado divertida e produtiva. Criado inicialmente para o meu primo, mas depois expandindo para a faixa etária entre 2 e 4 anos, o projeto utiliza React para a estruturação dos componentes e CSS para um design lúdico e atraente.',
     tecnologias: 'React e CSS', 
@@ -102,7 +102,6 @@ const Projetos = () => {
 
     {projetos.length > projetosIniciais && (
        <div className="mostrar-mais-container">
-       <div className="efeito-blur"></div>
        <button
          className="mostrar-mais-btn"
          onClick={() => setMostrarMais(!mostrarMais)}
