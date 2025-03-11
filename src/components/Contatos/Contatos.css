@@ -1,11 +1,10 @@
 
 .contatos-container {
-    height: 50vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 40px;
 }
 
 .contatos-info {
@@ -19,7 +18,7 @@
 
     p {
         color: #ffffffc9;
-        font-size: 17px;
+        font-size: 18px;
         text-align: justify;
         margin-bottom: 34px;
         width: 700px;
@@ -36,49 +35,62 @@
     border: 1px solid #555;
     border-radius: 5px;
     transition: background-color 0.3s, transform 0.3s;
+
+    :hover {
+        background-color: #007bff; /* Azul no hover */
+        transform: scale(1.05); /* Aumenta um pouco no hover */
+    }
   }
+
+  @media (max-width: 780px) {
+    .contatos-info{
+        h2  {
+            font-size: 38px;
+        }
+
+        p {
+            font-size: 17px;
+            width: 600px;
+        }
+    }
+  }
+
+  @media (max-width: 672px) {
+    .contatos-info{
+        h2  {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 16px;
+            width: 480px;
+        }
+    }
+  }
+
+  @media (max-width: 554px) {
+    .contatos-info{
+        h2  {
+            font-size: 34px;
+        }
+
+        p {
+            font-size: 16px;
+            width: 420px;
+        }
+    }
+  }
+
   
-  .email-copy-button.hover {
-    background-color: #007bff; /* Azul no hover */
-    transform: scale(1.05); /* Aumenta um pouco no hover */
+  @media (max-width: 458px) {
+    .contatos-info{
+        h2  {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 16px;
+            width: 300px;
+        }
+    }
   }
-
-@media (min-width: 320px) and (max-width: 425px){
-    .contatos-info h2 {
-        font-size: 30px;
-        margin-right: 40px;
-    }
-
-    .contatos-info p {
-        width: 320px;
-        margin-right: 40px;
-    }
-
-    .email-copy-button {
-        margin-right: 40px;
-    }
-}
-
-@media (min-width: 768px) {
-    .contatos-info p {
-        width: 540px;
-    }
-}
-
-@media (min-width: 1024px) {
-    .contatos-info p {
-        width: 600px;
-    }
-}
-
-@media (min-width: 1280px)  {
-    .contatos-info p {
-        width: 700px;
-    }
-}
-
-@media (min-width: 1920px) {
-    .contatos-info p {
-        width: 800px;
-    }
-}

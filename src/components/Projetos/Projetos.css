@@ -3,20 +3,19 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
-    height: auto;
-}
+    height: 100vh;
 
-.projetos h2 {
-    font-size: 40px;
-    font-weight: 700;
-    color: #fff;
-    margin-bottom: 60px;
+    h2 {
+        font-size: 40px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 60px;
+    }
 }
 
 .projetos-container {
     display: grid;
-    grid-template-columns:  repeat(2, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(2, auto);
 }
 
 .card {
@@ -35,36 +34,36 @@
     align-items: center;
     width: 600px;
     height: auto;
-}
 
-.projeto-image img {
-    width: 450px;
-    height: 227px;
+    .projeto-image img {
+        width: 450px;
+        height: auto;
+    }
 }
 
 .projeto-info {
     margin-bottom: 50px;
-}
 
-.projeto-info h3 { 
-    font-size: 28px;
-    padding-bottom: 20px;
-}
+    h3 {
+        font-size: 28px;
+        padding-bottom: 20px;
+    }
 
-.projeto-info p {
-    font-size: 18px;
-    text-align: justify;
-    width: 500px;
-}
+     p {
+        font-size: 18px;
+        text-align: justify;
+        width: 500px;
+     }
 
-.projeto-info span {
-    margin-top: 10px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    text-align: right;
-    font-style: italic;
-    font-weight: 600;
+     span {
+        margin-top: 10px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: right;
+        font-style: italic;
+        font-weight: 600;
+     }
 }
 
 .btn-projetos {
@@ -107,9 +106,8 @@
     width: 100%;
     text-align: center;
     margin-bottom: 40px;
-  }
-  
-  /* Botão "Mostrar mais" */
+
+    /* Botão "Mostrar mais" */
   .mostrar-mais-btn {
     position: relative;
     z-index: 2;
@@ -122,6 +120,52 @@
     font-size: 16px;
     font-weight: bold;
   }
+  }
+
+
+@media (max-width: 676px) {
+    .projetos h2 {
+        font-size: 38px;
+    }
+
+    .projeto-image img {
+        width: 400px;
+        height: auto;
+    }
+
+    .projeto-info {
+        h3 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 17px;
+            width: 400px;
+        }
+    }
+}
+
+@media (max-width: 462px) {
+    .projetos h2 {
+        font-size: 32px;
+    }
+
+    .projeto-image img {
+        width: 380px;
+        height: auto;
+    }
+
+    .projeto-info {
+        h3 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 16px;
+            width: 380px;
+        }
+    }
+}
 
 @media (max-width: 1240px) {
     .projetos-container {

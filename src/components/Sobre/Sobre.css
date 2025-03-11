@@ -1,19 +1,19 @@
 
 .sobre {
-    height: 50vh;
+    height: 80vh;
 }
 
 .sobre-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    max-width: 64rem;
+    width: 100%;
     margin: 0 auto;
 }
 
 .sobre-info {
     color: #fff;
-    margin-left: 70px;
+    text-align: center;
 
     h2 {
         font-size: 34px;
@@ -23,7 +23,7 @@
 
     p {
         width: 800px;
-        font-size: 17px;
+        font-size: 18px;
         text-align: justify;
         margin-bottom: 20px;
     }
@@ -41,86 +41,47 @@
     }
 }
 
-
-.sobre-image img{
-    width: 300px;
-}
-
-
-@media (min-width: 320px ) and (max-width: 425px){
-
-    .sobre {
-        margin-right: 50px;
-    }
-
-    .sobre-info h2 {
-        font-size: 30px;
-    }
-
-    .sobre-info p {
-        width: 320px;
-    }
-
-    .sobre-image img{
-        display: none;
-    }
-    
-}
-
-@media (min-width: 768px) {
-
-    .sobre {
-        height: 40vh;
-    }
-
-    .sobre-info h2 {
-        font-size: 40px;
-    }
-
-    .sobre-info p {
-        width: 500px;
-    }
-
-    .sobre-image img{
-        overflow: hidden;
+@media (max-width: 896px){
+    .sobre-info {
+        p {
+            width: 600px;
+        }
     }
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 640px){
+    .sobre-info {
 
-    .sobre {
-        height: 60vh;
-    }
+        h2 {
+            font-size: 30px;
+        }
 
-    .sobre-info h2 {
-        font-size: 40px;
-    }
-
-    .sobre-info p {
-        width: 750px;
-    }
-}
-
-@media (min-width: 1280px) {
-    .sobre {
-        height: 60vh;
-    }
-
-    .sobre-info h2 {
-        font-size: 40px;
-    }
-
-    .sobre-info p {
-        width: 800px;
-        padding: 20px 60px;
+        p {
+            width: 500px;
+            font-size: 18px;
+        }
     }
 }
 
-@media (min-width: 1920px) {
+@media (max-width: 524px) {
+    .sobre-info {
 
-    .sobre-info p {
-        font-size: 19px;
-        width: 800px;
-        padding: 20px 60px;
+        h2 {
+            font-size: 28px;
+        }
+
+        p {
+            width: 400px;
+            font-size: 17px;
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .sobre-info {
+        p {
+            width: 320px;
+            font-size: 17px;
+        }
     }
 }

@@ -1,12 +1,23 @@
-
-
 .typing-container h2 {
     font-size: 30px;
     font-weight: 600;
 }
 
-@media (min-width: 320px) and (max-width: 425px){
+@media (max-width: 628px) {
+    .typing-container h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 488px) {
     .typing-container h2 {
         font-size: 24px;
+    }
+}
+
+
+@media (max-width: 410px) {
+    .typing-container h2 {
+        font-size: 22px;
     }
 }

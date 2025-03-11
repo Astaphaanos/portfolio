@@ -1,15 +1,13 @@
-
-
 .home {
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;    
+    height: 100vh;    
 }
 
-.home .home-info h1 {
+.home-info h1 {
     font-size: 6em;
     font-weight: 600;
 }
@@ -20,38 +18,68 @@
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+
+  .btn-home {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+    
+    a {
+      color: white;
+      font-size: 17px;
+      font-weight: 600;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    &:hover {
+      border: 1px solid #fff;
+    }
+  }
+
 }
 
-.btn-home {
-  width: 180px;
-  height: 60px;
-  cursor: pointer;
-  background: transparent;
-  border: 1px solid #91C9FF;
-  outline: none;
-  transition: 1s ease-in-out;
-}
-
-.btn-home:hover {
-  border: 1px solid #fff;
-}
-
-.btn-home a {
-  color: white;
-  font-size: 17px;
-  font-weight: 600;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-
-@media (min-width: 320px ) and (max-width: 425px){
+@media (max-width: 948px) {
     .home .home-info h1 {
-      font-size: 3.5em;
-      font-weight: 700;
+      font-size: 5em;
   }
 
   .btn-home {
-      width: 160px;
+    width: 160px;
   }
+}
+
+
+@media (max-width: 634px) {
+    .home .home-info h1 {
+      font-size: 4.2em;
+  }
+  .btn-home {
+    width: 140px;
+  }
+}
+
+@media (max-width: 488px) {
+  .home .home-info h1 {
+    font-size: 3.5em;
+}
+}
+
+
+@media (max-width: 410px) {
+  .home .home-info h1 {
+    font-size: 3em;
+}
+
+.btn-home {
+  width: 120px;
+
+  a {
+    font-size: 15px;
+  }
+}
 }

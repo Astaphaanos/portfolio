@@ -65,7 +65,7 @@ const Projetos = () => {
   const projetosVisiveis = mostrarMais ? projetos : projetos.slice(0, projetosIniciais);
 
   return (
-  <section className="projetos" id="projetos">
+  <section className="projetos">
   <AnimatedOnScroll animation="fade-up">
     <h2>Projetos</h2>
     <div className="projetos-container">

@@ -4,7 +4,7 @@ import './Home.css';
 
 const Home = () => {
     return (
-        <section className='home' id='home'> 
+        <section className='home'> 
 
             <AnimatedOnScroll animation="zoom-in-right">
                 <div className="home-info">
