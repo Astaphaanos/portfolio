@@ -18,10 +18,9 @@
 
 .section-grid{
     display: grid;
-    grid-template-columns: repeat(4, 240px);
+    grid-template-columns: repeat(4, 250px);
 
     .div-svg {
-        margin-left: 20px;
         margin-bottom: 60px;
         cursor: pointer;
 
