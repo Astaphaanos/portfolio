@@ -23,9 +23,11 @@
         }
     }
 }
+/*Fazer um push lateral, quando clicar, apareça o menu lateral*/
 
-@media (min-width: 320px ) and (max-width: 1080px){
+@media (max-width: 950px){
     .side-menu {
         display: none;
     }
 }
+
