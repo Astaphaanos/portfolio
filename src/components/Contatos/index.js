@@ -35,7 +35,7 @@ const Contatos = () => {
         <div className="contatos-container">
           <div className="contatos-info">
             <h2>Contatos</h2>
-            <p>Estou sempre aberta a novos projetos e desafios, especialmente nas áreas de desenvolvimento fullstack e tecnologias inovadoras. Não hesite em enviar um e-mail será um prazer responder e discutir como podemos trabalhar juntos!</p>
+            <p>Estou sempre aberta a novos projetos e desafios, especialmente na área de desenvolvimento fullstack e tecnologias inovadoras. Não hesite em enviar um e-mail será um prazer responder e discutir como podemos trabalhar juntos!</p>
           </div>
 
           <div className="bnt-email">
