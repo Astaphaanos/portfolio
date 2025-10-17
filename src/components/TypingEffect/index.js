@@ -5,7 +5,7 @@ import {useTypewriter, Cursor} from 'react-simple-typewriter';
 const TypingEffect = () => {
 
     const [text] = useTypewriter({
-        words : ['Desenvolvedora Front-End'],
+        words : ['Desenvolvedora FullStack'],
         loop: {},
         typeSpeed: 120,
         deleteSpeed: 80,
